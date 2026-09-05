@@ -148,3 +148,15 @@ A set of repositories showing the progression of the same microservices applicat
     />
   </picture>
 </p>
+
+## Connect With Me
+
+<p>
+  <a href="https://www.linkedin.com/in/saipillalamarri">
+    LinkedIn
+  </a>
+  •
+  <a href="mailto:sai.pillalamarri.aws@gmail.com">
+    Email
+  </a>
+</p>
