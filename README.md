@@ -297,7 +297,6 @@ AWS Certified Solutions Architect – Associate certification covering AWS archi
   </picture>
 </p>
 
-## Connect With Me
 
 ## Connect With Me
 
