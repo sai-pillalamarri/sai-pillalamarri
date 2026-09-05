@@ -1,3 +1,11 @@
+<p align="center">
+  <img
+    src="./assets/github-banner.png"
+    alt="Sai Pillalamarri - DevOps and DevSecOps Engineer"
+    width="100%"
+  />
+</p>
+
 <h1 align="center">Hi, I'm Sai Pillalamarri</h1>
 
 <h3 align="center">DevOps / DevSecOps Engineer</h3>
