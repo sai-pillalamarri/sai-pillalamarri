@@ -122,3 +122,12 @@ A set of repositories showing the progression of the same microservices applicat
 - [roboshop-dev-infra](https://github.com/sai-pillalamarri/roboshop-dev-infra) — AWS infrastructure with Terraform, reusable modules, load balancers, Auto Scaling, ACM, Route 53, and environment-level infrastructure
 
 **Progression:** Shell → Ansible → Docker → Terraform → AWS infrastructure
+
+## GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=sai-pillalamarri&show_icons=true&hide_title=true"
+    alt="Sai Pillalamarri GitHub stats"
+  />
+</p>
