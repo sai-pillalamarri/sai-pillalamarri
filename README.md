@@ -18,9 +18,9 @@ I'm a DevOps / DevSecOps Engineer with 5+ years of experience working across clo
 
 My work focuses on Infrastructure as Code, deployment automation, GitOps, secure software delivery, observability, and reliability.
 
-I work across the full delivery path: infrastructure provisioning, application pipelines, container platforms, security controls, monitoring, incident response, and operational automation.
+I work across the delivery path from infrastructure provisioning and CI/CD pipelines to container platforms, security controls, monitoring, incident response, and operational automation.
 
-A large part of how I work is troubleshooting systems from symptom to root cause, then improving the platform so the same failure is easier to detect, recover from, or prevent.
+I enjoy troubleshooting systems from symptom to root cause, then improving the platform so the same failure is easier to detect, recover from, or prevent.
 
 ## Engineering Focus
 
@@ -110,48 +110,69 @@ Supported CI/CD, infrastructure provisioning, deployment automation, releases, m
 
 An independent DevOps / DevSecOps engineering project built around a banking-style microservices platform.
 
-The project covers infrastructure provisioning, Kubernetes, GitOps, identity, secure software delivery, database lifecycle, workload security, environment automation, and operational reliability.
+The platform covers infrastructure provisioning, Kubernetes, GitOps, identity, secure software delivery, database lifecycle, workload security, environment automation, and operational reliability.
 
-#### Engineering implemented
+#### Engineering Implemented
 
-- Layered Terraform with separate state and lifecycle boundaries for persistent infrastructure, networking, EKS, and RDS
+- Layered Terraform with separate state and lifecycle boundaries
 - Amazon EKS with Karpenter-based node provisioning
-- GitOps deployment through Argo CD using an app-of-apps structure
+- GitOps deployment through Argo CD
+- App-of-apps structure for platform and application workloads
 - GitHub Actions CI with reusable workflows and path-aware execution
 - Immutable ECR image releases using Git SHA tags and image digests
-- Trivy vulnerability scanning and Gitleaks secret scanning
-- SonarQube quality gates and OWASP ZAP baseline DAST
-- Syft SBOM generation and Cosign keyless image signing
-- Kyverno admission policies with signed-image verification
-- Pod Security Admission and Kubernetes NetworkPolicies
+- SonarQube quality gates
+- Trivy filesystem and container image scanning
+- Gitleaks secret scanning
+- OWASP ZAP baseline DAST
+- Syft SBOM generation
+- Cosign keyless container signing through GitHub OIDC
+- Kyverno admission policies with image signature verification
+- Pod Security Admission in restricted mode
+- Kubernetes NetworkPolicies with default-deny controls
 - External Secrets Operator with AWS Secrets Manager
-- EKS Pod Identity for workload-to-AWS authentication
-- PostgreSQL 16 on RDS with snapshot-based teardown and restore
-- Amazon Cognito with OAuth2 scopes, groups, and demo users
-- Spring Boot OAuth2/JWT validation with negative security tests
-- Horizontal Pod Autoscaling, PodDisruptionBudgets, probes, and topology spread
+- EKS Pod Identity for workload authentication
+- PostgreSQL 16 databases on Amazon RDS
+- Snapshot-based RDS teardown and restoration
+- Amazon Cognito users, groups, clients, and OAuth2 scopes
+- Spring Boot OAuth2/JWT resource-server security
+- Negative security tests for authentication and authorization controls
+- Horizontal Pod Autoscaling
+- PodDisruptionBudgets
+- Liveness, readiness, and startup probes
+- Topology spread constraints
 - Automated application release to GitOps pull-request promotion
 
-#### Repositories
+### AS Bank Repositories
 
-- [`as-bank-infra`](https://github.com/sai-pillalamarri/as-bank-infra)  
-  Terraform, AWS networking, EKS, Karpenter, IAM, RDS, Cognito, platform add-ons, and infrastructure lifecycle.
+#### Infrastructure
 
-- [`as-bank-gitops`](https://github.com/sai-pillalamarri/as-bank-gitops)  
-  Argo CD desired state, Helm workloads, environment configuration, Kubernetes security controls, and GitOps deployment.
+[View AS Bank Infrastructure](https://github.com/sai-pillalamarri/as-bank-infra)
 
-- [`as-bank-app`](https://github.com/sai-pillalamarri/as-bank-app)  
-  Java/Spring Boot microservices, React frontend, OAuth2/JWT security, application CI, containers, SBOMs, and signed releases.
+Terraform, AWS networking, EKS, Karpenter, IAM, RDS, Cognito, platform add-ons, infrastructure lifecycle, and environment automation.
+
+#### GitOps
+
+[View AS Bank GitOps](https://github.com/sai-pillalamarri/as-bank-gitops)
+
+Argo CD desired state, Helm workloads, Kubernetes configuration, security controls, platform components, and environment-specific deployment configuration.
+
+#### Application
+
+[View AS Bank Application](https://github.com/sai-pillalamarri/as-bank-app)
+
+Java/Spring Boot microservices, React frontend, OAuth2/JWT security, application CI, container builds, SBOM generation, image scanning, and signed releases.
 
 **Stack:** AWS · EKS · Terraform · Kubernetes · Argo CD · GitHub Actions · Karpenter · RDS · Cognito · Java · Spring Boot · React · PostgreSQL · Kyverno · Trivy · Cosign
 
-> **Project note:** AS Bank is a learning project built with synthetic data. The banking domain is used to exercise security, reliability, and platform engineering controls; it does not represent production banking experience.
+> **Scope note:** AS Bank is a learning project using synthetic data. The banking domain is used to exercise security, reliability, and platform engineering controls and does not represent production banking experience.
 
 ---
 
-### RoboShop Automation Journey
+### E-Commerce Microservices Application
 
-RoboShop shows the progression of the same microservices application through different levels of infrastructure and deployment automation.
+A microservices-based e-commerce application implemented through multiple stages of infrastructure and deployment automation.
+
+The repositories show how the same application environment evolved from shell automation to configuration management, containerisation, and Infrastructure as Code on AWS.
 
 ```text
 Shell Automation
@@ -163,3 +184,102 @@ Docker
 Terraform
       ↓
 AWS Infrastructure
+```
+
+### Shell Automation
+
+[View Shell Automation Repository](https://github.com/sai-pillalamarri/shell-roboshop)
+
+Automated Linux and application setup using Bash and AWS CLI.
+
+The implementation covers EC2 provisioning, Route 53 updates, package installation, application deployment, service configuration, and systemd management.
+
+**Technologies:** Bash · AWS CLI · EC2 · Route 53 · Linux · systemd
+
+### Configuration Management with Ansible
+
+[View Ansible Automation Repository](https://github.com/sai-pillalamarri/roboshop-ansible-v3)
+
+Moved application configuration into reusable Ansible roles with shared variables, inventory-based targeting, and service-specific configuration.
+
+This reduced repeated shell logic and made the environment easier to reproduce consistently.
+
+**Technologies:** Ansible · YAML · Linux · AWS · Configuration Management
+
+### Containerised Microservices
+
+[View Docker Repository](https://github.com/sai-pillalamarri/roboshop-docker)
+
+Containerised the application services and supporting dependencies using Docker and Docker Compose.
+
+The implementation covers multi-stage builds, service networking, application dependencies, database initialization, persistent volumes, and local multi-service orchestration.
+
+**Technologies:** Docker · Docker Compose · Microservices · MongoDB · Redis · MySQL · RabbitMQ
+
+### AWS Infrastructure with Terraform
+
+[View Terraform Infrastructure Repository](https://github.com/sai-pillalamarri/roboshop-dev-infra)
+
+Built the AWS infrastructure using Terraform with separate infrastructure layers and reusable modules.
+
+The environment covers:
+
+- VPC networking
+- Public and private subnets
+- Security groups
+- Bastion infrastructure
+- Database infrastructure
+- Internal Application Load Balancer
+- Internet-facing Application Load Balancer
+- EC2 application workloads
+- Launch Templates
+- Auto Scaling Groups
+- ACM certificates
+- Route 53 DNS
+- CloudFront-related infrastructure
+- Remote Terraform state
+- Reusable Terraform modules
+
+**Technologies:** AWS · Terraform · VPC · EC2 · ALB · Auto Scaling · ACM · Route 53 · CloudFront · Infrastructure as Code
+
+## Certification
+
+### AWS Certified Solutions Architect – Associate
+
+AWS Certified Solutions Architect – Associate certification covering AWS architecture, secure design, resilient systems, networking, storage, compute, and cost-aware cloud solutions.
+
+## GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=sai-pillalamarri&show_icons=true&hide_title=true"
+    alt="Sai Pillalamarri GitHub stats"
+  />
+</p>
+
+## Contribution Activity
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="Sai Pillalamarri GitHub contribution activity"
+      src="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
+</p>
+
+## Connect With Me
+
+<p>
+  <a href="https://www.linkedin.com/in/saipillalamarri">LinkedIn</a>
+  •
+  <a href="mailto:sai.pillalamarri.aws@gmail.com">Email</a>
+</p>
