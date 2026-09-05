@@ -258,31 +258,27 @@ The environment covers:
 AWS Certified Solutions Architect – Associate certification covering AWS architecture, secure design, resilient systems, networking, storage, compute, and cost-aware cloud solutions.
 
 
-## GitHub Activity
+## GitHub Stats
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sai-pillalamarri&theme=github_dark"
+    src="https://github-readme-stats.shion.dev/api?username=sai-pillalamarri&theme=cobalt2&hide_border=true&include_all_commits=true&count_private=true"
     alt="Sai Pillalamarri GitHub Stats"
-    height="180"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=sai-pillalamarri&background=0D1117&border=30363D&stroke=30363D&ring=F2CC60&fire=F2CC60&currStreakNum=FFFFFF&sideNums=F2CC60&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E&hide_border=true"
+    src="https://streak-stats.demolab.com/?user=sai-pillalamarri&theme=cobalt2&hide_border=true"
     alt="Sai Pillalamarri GitHub Streak"
-    height="180"
   />
-
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sai-pillalamarri&theme=github_dark"
+    src="https://github-readme-stats.shion.dev/api/top-langs/?username=sai-pillalamarri&theme=cobalt2&hide_border=true&layout=compact"
     alt="Sai Pillalamarri Most Used Languages"
-    height="180"
   />
 </p>
 
-## Contribution Activity
+## GitHub Contribution Snake
 
 <p align="center">
   <picture>
@@ -295,7 +291,7 @@ AWS Certified Solutions Architect – Associate certification covering AWS archi
       srcset="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
     />
     <img
-      alt="Sai Pillalamarri GitHub contribution activity"
+      alt="Sai Pillalamarri GitHub contribution snake"
       src="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
     />
   </picture>
