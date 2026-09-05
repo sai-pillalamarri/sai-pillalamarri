@@ -83,3 +83,15 @@ I enjoy working through infrastructure and production problems from symptom to r
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+## Career Snapshot
+
+### Wipro — DevSecOps Engineer
+**Jun 2023 – Present**
+
+Working across AWS, Kubernetes, Terraform, GitHub Actions, Argo CD, DevSecOps controls, observability, incident response, and infrastructure automation. Focused on secure delivery, reusable infrastructure, production reliability, and reducing manual operational work.
+
+### Virtusa — DevOps Engineer
+**Apr 2021 – Mar 2023**
+
+Worked across Azure and AWS environments using Azure DevOps, Jenkins, Terraform, Ansible, Docker, CloudWatch, Azure Monitor, and automation with Bash and Python. Supported CI/CD, infrastructure provisioning, releases, monitoring, backup, and production operations.
