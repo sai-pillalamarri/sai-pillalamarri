@@ -131,3 +131,20 @@ A set of repositories showing the progression of the same microservices applicat
     alt="Sai Pillalamarri GitHub stats"
   />
 </p>
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="GitHub contribution snake"
+      src="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
+</p>
