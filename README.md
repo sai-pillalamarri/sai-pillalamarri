@@ -19,3 +19,18 @@ I'm a DevOps / DevSecOps Engineer with 5+ years of experience building and opera
 My work focuses on Infrastructure as Code, deployment automation, GitOps, cloud security, observability, and reliability. I work with Terraform, Kubernetes, GitHub Actions, Azure DevOps, Jenkins, Argo CD, Prometheus, Grafana, and related cloud-native tooling.
 
 I enjoy working through infrastructure and production problems from symptom to root cause, then improving the system so the same failure is easier to detect, recover from, or prevent.
+
+
+## What I Work On
+
+- AWS and Azure cloud infrastructure
+- Kubernetes and EKS operations
+- Infrastructure as Code with Terraform
+- CI/CD pipelines with GitHub Actions, Azure DevOps, and Jenkins
+- GitOps delivery with Argo CD
+- Platform engineering practices around reusable infrastructure and deployment standards
+- DevSecOps controls across code, containers, infrastructure, and software supply chain
+- Observability with Prometheus, Grafana, CloudWatch, Azure Monitor, and ELK
+- Incident response, root cause analysis, and production troubleshooting
+- Automation with Python, Boto3, and Bash
+- Cloud cost optimisation, backup, recovery, and operational reliability
