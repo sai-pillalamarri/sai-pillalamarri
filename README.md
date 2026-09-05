@@ -95,3 +95,30 @@ Working across AWS, Kubernetes, Terraform, GitHub Actions, Argo CD, DevSecOps co
 **Apr 2021 – Mar 2023**
 
 Worked across Azure and AWS environments using Azure DevOps, Jenkins, Terraform, Ansible, Docker, CloudWatch, Azure Monitor, and automation with Bash and Python. Supported CI/CD, infrastructure provisioning, releases, monitoring, backup, and production operations.
+
+## Featured Engineering Projects
+
+### AS Bank — Platform Engineering Project
+
+A banking-style learning platform built with synthetic data to develop and demonstrate hands-on depth across AWS, Kubernetes, Terraform, GitOps, DevSecOps, application delivery, and reliability engineering.
+
+The platform is split across three repositories so application code, infrastructure, and Kubernetes desired state have clear ownership boundaries.
+
+- [as-bank-infra](https://github.com/sai-pillalamarri/as-bank-infra) — AWS infrastructure, Terraform, EKS, Karpenter, IAM, RDS, Cognito, networking, and platform components
+- [as-bank-gitops](https://github.com/sai-pillalamarri/as-bank-gitops) — Argo CD desired state, platform add-ons, Helm-based workloads, security policies, and environment configuration
+- [as-bank-app](https://github.com/sai-pillalamarri/as-bank-app) — Java/Spring Boot services, React frontend, testing, CI, container builds, image scanning, SBOMs, and signing
+
+**Key areas:** AWS · EKS · Terraform · Argo CD · GitHub Actions · Kubernetes · Karpenter · Kyverno · External Secrets · Cognito · RDS · DevSecOps
+
+---
+
+### RoboShop — DevOps Automation Journey
+
+A set of repositories showing the progression of the same microservices application through different stages of infrastructure and delivery automation.
+
+- [shell-roboshop](https://github.com/sai-pillalamarri/shell-roboshop) — infrastructure and application automation with shell scripting
+- [roboshop-ansible-v3](https://github.com/sai-pillalamarri/roboshop-ansible-v3) — configuration management and reusable Ansible roles
+- [roboshop-docker](https://github.com/sai-pillalamarri/roboshop-docker) — containerised microservices and Docker Compose
+- [roboshop-dev-infra](https://github.com/sai-pillalamarri/roboshop-dev-infra) — AWS infrastructure with Terraform, reusable modules, load balancers, Auto Scaling, ACM, Route 53, and environment-level infrastructure
+
+**Progression:** Shell → Ansible → Docker → Terraform → AWS infrastructure
