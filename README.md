@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/saipillalamarri">LinkedIn</a>
   •
-  <a href="mailto:sai.pillalamarri.aws@gmail.com">Email</a>
+  sai.pillalamarri.aws@gmail.com
 </p>
 
 ## About Me
