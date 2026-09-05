@@ -3,7 +3,7 @@
 <h3 align="center">DevOps / DevSecOps Engineer</h3>
 
 <p align="center">
-   DevOps • SRE • Cloud Engineer | AWS & Azure | CI/CD | Kubernetes | Terraform 
+   DevOps • Platform Engineer • SRE • Cloud Engineer | AWS & Azure | CI/CD | Kubernetes | Terraform 
 </p>
 
 <p align="center">
