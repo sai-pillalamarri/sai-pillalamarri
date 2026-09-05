@@ -14,26 +14,28 @@
 
 ## About Me
 
-I'm a DevOps / DevSecOps Engineer with 5+ years of experience building and operating cloud infrastructure, CI/CD platforms, and Kubernetes workloads across AWS and Azure.
+I'm a DevOps / DevSecOps Engineer with 5+ years of experience working across cloud infrastructure, CI/CD, Kubernetes, automation, security, and production operations on AWS and Azure.
 
-My work focuses on Infrastructure as Code, deployment automation, GitOps, cloud security, observability, and reliability. I work with Terraform, Kubernetes, GitHub Actions, Azure DevOps, Jenkins, Argo CD, Prometheus, Grafana, and related cloud-native tooling.
+My work focuses on Infrastructure as Code, deployment automation, GitOps, secure software delivery, observability, and reliability.
 
-I enjoy working through infrastructure and production problems from symptom to root cause, then improving the system so the same failure is easier to detect, recover from, or prevent.
+I work across the full delivery path: infrastructure provisioning, application pipelines, container platforms, security controls, monitoring, incident response, and operational automation.
 
+A large part of how I work is troubleshooting systems from symptom to root cause, then improving the platform so the same failure is easier to detect, recover from, or prevent.
 
-## What I Work On
+## Engineering Focus
 
 - AWS and Azure cloud infrastructure
-- Kubernetes and EKS operations
+- Kubernetes and Amazon EKS
 - Infrastructure as Code with Terraform
-- CI/CD pipelines with GitHub Actions, Azure DevOps, and Jenkins
+- CI/CD with GitHub Actions, Azure DevOps, and Jenkins
 - GitOps delivery with Argo CD
-- Platform engineering practices around reusable infrastructure and deployment standards
+- Reusable infrastructure and deployment standards
 - DevSecOps controls across code, containers, infrastructure, and software supply chain
+- IAM, workload identity, secrets management, and cloud security controls
 - Observability with Prometheus, Grafana, CloudWatch, Azure Monitor, and ELK
 - Incident response, root cause analysis, and production troubleshooting
 - Automation with Python, Boto3, and Bash
-- Cloud cost optimisation, backup, recovery, and operational reliability
+- Backup, recovery, cost optimisation, and operational reliability
 
 ## Tech Stack
 
@@ -44,7 +46,7 @@ I enjoy working through infrastructure and production problems from symptom to r
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white)
 
-### Containers & Platform
+### Containers & GitOps
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -58,7 +60,7 @@ I enjoy working through infrastructure and production problems from symptom to r
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### DevSecOps & Supply Chain
+### DevSecOps & Software Supply Chain
 
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
 ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white)
@@ -87,76 +89,77 @@ I enjoy working through infrastructure and production problems from symptom to r
 ## Career Snapshot
 
 ### Wipro — DevSecOps Engineer
+
 **Jun 2023 – Present**
 
-Working across AWS, Kubernetes, Terraform, GitHub Actions, Argo CD, DevSecOps controls, observability, incident response, and infrastructure automation. Focused on secure delivery, reusable infrastructure, production reliability, and reducing manual operational work.
+Working across AWS, Kubernetes, Terraform, GitHub Actions, Argo CD, security controls, observability, incident response, and infrastructure automation.
+
+My focus includes secure application delivery, reusable infrastructure, production reliability, platform automation, troubleshooting, and reducing manual operational work.
 
 ### Virtusa — DevOps Engineer
+
 **Apr 2021 – Mar 2023**
 
-Worked across Azure and AWS environments using Azure DevOps, Jenkins, Terraform, Ansible, Docker, CloudWatch, Azure Monitor, and automation with Bash and Python. Supported CI/CD, infrastructure provisioning, releases, monitoring, backup, and production operations.
+Worked across Azure and AWS environments using Azure DevOps, Jenkins, Terraform, Ansible, Docker, CloudWatch, Azure Monitor, Bash, and Python.
+
+Supported CI/CD, infrastructure provisioning, deployment automation, releases, monitoring, backup, troubleshooting, and day-to-day production operations.
 
 ## Featured Engineering Projects
 
-### AS Bank — Platform Engineering Project
+### AS Bank
 
-A banking-style learning platform built with synthetic data to develop and demonstrate hands-on depth across AWS, Kubernetes, Terraform, GitOps, DevSecOps, application delivery, and reliability engineering.
+An independent DevOps / DevSecOps engineering project built around a banking-style microservices platform.
 
-The platform is split across three repositories so application code, infrastructure, and Kubernetes desired state have clear ownership boundaries.
+The project covers infrastructure provisioning, Kubernetes, GitOps, identity, secure software delivery, database lifecycle, workload security, environment automation, and operational reliability.
 
-- [as-bank-infra](https://github.com/sai-pillalamarri/as-bank-infra) — AWS infrastructure, Terraform, EKS, Karpenter, IAM, RDS, Cognito, networking, and platform components
-- [as-bank-gitops](https://github.com/sai-pillalamarri/as-bank-gitops) — Argo CD desired state, platform add-ons, Helm-based workloads, security policies, and environment configuration
-- [as-bank-app](https://github.com/sai-pillalamarri/as-bank-app) — Java/Spring Boot services, React frontend, testing, CI, container builds, image scanning, SBOMs, and signing
+#### Engineering implemented
 
-**Key areas:** AWS · EKS · Terraform · Argo CD · GitHub Actions · Kubernetes · Karpenter · Kyverno · External Secrets · Cognito · RDS · DevSecOps
+- Layered Terraform with separate state and lifecycle boundaries for persistent infrastructure, networking, EKS, and RDS
+- Amazon EKS with Karpenter-based node provisioning
+- GitOps deployment through Argo CD using an app-of-apps structure
+- GitHub Actions CI with reusable workflows and path-aware execution
+- Immutable ECR image releases using Git SHA tags and image digests
+- Trivy vulnerability scanning and Gitleaks secret scanning
+- SonarQube quality gates and OWASP ZAP baseline DAST
+- Syft SBOM generation and Cosign keyless image signing
+- Kyverno admission policies with signed-image verification
+- Pod Security Admission and Kubernetes NetworkPolicies
+- External Secrets Operator with AWS Secrets Manager
+- EKS Pod Identity for workload-to-AWS authentication
+- PostgreSQL 16 on RDS with snapshot-based teardown and restore
+- Amazon Cognito with OAuth2 scopes, groups, and demo users
+- Spring Boot OAuth2/JWT validation with negative security tests
+- Horizontal Pod Autoscaling, PodDisruptionBudgets, probes, and topology spread
+- Automated application release to GitOps pull-request promotion
+
+#### Repositories
+
+- [`as-bank-infra`](https://github.com/sai-pillalamarri/as-bank-infra)  
+  Terraform, AWS networking, EKS, Karpenter, IAM, RDS, Cognito, platform add-ons, and infrastructure lifecycle.
+
+- [`as-bank-gitops`](https://github.com/sai-pillalamarri/as-bank-gitops)  
+  Argo CD desired state, Helm workloads, environment configuration, Kubernetes security controls, and GitOps deployment.
+
+- [`as-bank-app`](https://github.com/sai-pillalamarri/as-bank-app)  
+  Java/Spring Boot microservices, React frontend, OAuth2/JWT security, application CI, containers, SBOMs, and signed releases.
+
+**Stack:** AWS · EKS · Terraform · Kubernetes · Argo CD · GitHub Actions · Karpenter · RDS · Cognito · Java · Spring Boot · React · PostgreSQL · Kyverno · Trivy · Cosign
+
+> **Project note:** AS Bank is a learning project built with synthetic data. The banking domain is used to exercise security, reliability, and platform engineering controls; it does not represent production banking experience.
 
 ---
 
-### RoboShop — DevOps Automation Journey
+### RoboShop Automation Journey
 
-A set of repositories showing the progression of the same microservices application through different stages of infrastructure and delivery automation.
+RoboShop shows the progression of the same microservices application through different levels of infrastructure and deployment automation.
 
-- [shell-roboshop](https://github.com/sai-pillalamarri/shell-roboshop) — infrastructure and application automation with shell scripting
-- [roboshop-ansible-v3](https://github.com/sai-pillalamarri/roboshop-ansible-v3) — configuration management and reusable Ansible roles
-- [roboshop-docker](https://github.com/sai-pillalamarri/roboshop-docker) — containerised microservices and Docker Compose
-- [roboshop-dev-infra](https://github.com/sai-pillalamarri/roboshop-dev-infra) — AWS infrastructure with Terraform, reusable modules, load balancers, Auto Scaling, ACM, Route 53, and environment-level infrastructure
-
-**Progression:** Shell → Ansible → Docker → Terraform → AWS infrastructure
-
-## GitHub Activity
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=sai-pillalamarri&show_icons=true&hide_title=true"
-    alt="Sai Pillalamarri GitHub stats"
-  />
-</p>
-
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
-    />
-    <img
-      alt="GitHub contribution snake"
-      src="https://raw.githubusercontent.com/sai-pillalamarri/sai-pillalamarri/output/github-contribution-grid-snake.svg"
-    />
-  </picture>
-</p>
-
-## Connect With Me
-
-<p>
-  <a href="https://www.linkedin.com/in/saipillalamarri">
-    LinkedIn
-  </a>
-  •
-  <a href="mailto:sai.pillalamarri.aws@gmail.com">
-    Email
-  </a>
-</p>
+```text
+Shell Automation
+      ↓
+Ansible
+      ↓
+Docker
+      ↓
+Terraform
+      ↓
+AWS Infrastructure
