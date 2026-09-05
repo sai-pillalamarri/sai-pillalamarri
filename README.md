@@ -262,7 +262,7 @@ AWS Certified Solutions Architect – Associate certification covering AWS archi
 
 <p align="center">
   <img
-    src="https://github-readme-stats.shion.dev/api?username=sai-pillalamarri&theme=cobalt2&hide_border=true&include_all_commits=true&count_private=true"
+    src="https://github-readme-stats.shion.dev/api?username=sai-pillalamarri&theme=cobalt2&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&hide=stars,issues"
     alt="Sai Pillalamarri GitHub Stats"
   />
 </p>
