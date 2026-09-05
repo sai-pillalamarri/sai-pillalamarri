@@ -259,10 +259,26 @@ AWS Certified Solutions Architect – Associate certification covering AWS archi
 
 ## GitHub Activity
 
+## GitHub Activity
+
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=sai-pillalamarri&show_icons=true&hide_title=true"
-    alt="Sai Pillalamarri GitHub stats"
+    src="https://github-readme-stats.vercel.app/api?username=sai-pillalamarri&show_icons=true&hide_border=true&bg_color=0D1117&title_color=F2CC60&text_color=58A6FF&icon_color=F2CC60"
+    alt="Sai Pillalamarri GitHub Stats"
+    height="180"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=sai-pillalamarri&background=0D1117&border=30363D&stroke=30363D&ring=F2CC60&fire=F2CC60&currStreakNum=FFFFFF&sideNums=F2CC60&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E&hide_border=true"
+    alt="Sai Pillalamarri GitHub Streak"
+    height="180"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sai-pillalamarri&layout=compact&hide_border=true&bg_color=0D1117&title_color=F2CC60&text_color=58A6FF&langs_count=6"
+    alt="Sai Pillalamarri Most Used Languages"
+    height="180"
   />
 </p>
 
