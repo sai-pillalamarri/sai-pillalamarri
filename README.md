@@ -11,3 +11,11 @@
   •
   <a href="mailto:sai.pillalamarri.aws@gmail.com">Email</a>
 </p>
+
+## About Me
+
+I'm a DevOps / DevSecOps Engineer with 5+ years of experience building and operating cloud infrastructure, CI/CD platforms, and Kubernetes workloads across AWS and Azure.
+
+My work focuses on Infrastructure as Code, deployment automation, GitOps, cloud security, observability, and reliability. I work with Terraform, Kubernetes, GitHub Actions, Azure DevOps, Jenkins, Argo CD, Prometheus, Grafana, and related cloud-native tooling.
+
+I enjoy working through infrastructure and production problems from symptom to root cause, then improving the system so the same failure is easier to detect, recover from, or prevent.
