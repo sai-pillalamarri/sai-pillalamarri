@@ -257,7 +257,6 @@ The environment covers:
 
 AWS Certified Solutions Architect – Associate certification covering AWS architecture, secure design, resilient systems, networking, storage, compute, and cost-aware cloud solutions.
 
-## GitHub Activity
 
 ## GitHub Activity
 
